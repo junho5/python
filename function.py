@@ -1,6 +1,7 @@
 def print_square(x):
   print(x*x)
 
+
 def get_square(x):
   return x*x
 
