@@ -9,6 +9,6 @@ print(numbers[1]+numbers[3])
 print(numbers[-2])
 
 # 리스트 슬라이싱 (list slicing)
-print(numbers[2:]) # 2부터 마지막
-print(numbers[:2]) # 0 ~ 1 까지임 실수 조심
-print(numbers[2:5]) # 2 ~ 4까지임 실수 조심
+print(numbers[2:])  # 2부터 마지막
+print(numbers[:2])  # 0 ~ 1 까지임 실수 조심
+print(numbers[2:5])  # 2 ~ 4까지임 실수 조심
