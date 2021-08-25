@@ -1,3 +1,5 @@
+# 피보나치 문제
+
 i = 1
 current = 1
 previous = 0
