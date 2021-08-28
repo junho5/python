@@ -8,7 +8,7 @@ def reverse_dict(dict):
         new_dict[value] = key
     # dict의 key와 value를 뒤집어서 new_dict에 저장
     # 코드를 입력하세요.
-    
+
     return new_dict  # 변환한 새로운 사전 리턴
 
 
