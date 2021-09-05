@@ -1,5 +1,4 @@
 with open('vocabulary.txt','r')as f:
-    problem = []
     for i in f:
         data = i.strip().split(': ')
         answer = input(data[1]+': ')
