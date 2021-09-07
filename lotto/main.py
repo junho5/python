@@ -1,9 +1,6 @@
 from random import randint
 
 
-from random import randint
-
-
 def generate_numbers(n):
     list = []
     for i in range(n):
@@ -12,4 +9,10 @@ def generate_numbers(n):
             list.append(number)
     return list
 
-print(generate_numbers(6))
+
+def draw_winning_numbers():
+    winning_numbers = generate_numbers(7)
+    return sorted(winning_numbers[:6]) + winning_numbers[6:]
+    
+    
+print(draw_winning_numbers())
