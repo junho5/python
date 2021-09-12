@@ -48,8 +48,5 @@ def check(numbers, winning_numbers):
         return 0
 
 
-# 테스트
-print(check([2, 4, 11, 14, 25, 40], [4, 12, 14, 28, 40, 41, 6]))
-print(check([2, 4, 11, 14, 25, 40], [2, 4, 10, 11, 14, 40, 25])) 
 
 
